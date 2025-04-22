@@ -1,0 +1,36 @@
+4/22/25:
+
+Attending Members: John, Liam, Devin
+
+Plan for Next Time (TBD (proposals: 4/22 evening OR 4/24 @9:25am)): 
+
+
+Components:
+  - (Literally every component in Locker 12)
+  - GitHub Link: https://github.com/JohnDavidVill/elec424proj3
+
+Current Plan:
+
+- Team Locker: Locker 12 (marked by a Aquamarine/Teal Sticky Note on the right side of cabinet section).
+  a. Contains both Final Project & Project 3 Equipment.
+
+Notes:
+
+- The issue with the LCD still persists even after Dr. Young troubleshot (swapped his Raspberry Pi 5 as well as with his microSD).
+    a. Dr. Young recommends that we grab spare Raspberry Pi 4's from Ryon Basement.
+    b. IT WORKED!! --> Using Devin's microSD card and a spare Raspberry Pi 4, we were able to see "Initializing..." on the LCD.
+    c. We are now moving onto the next steps of the assignment (as of 10:02am, we are at the instructions' section that is just before the "Pulse-Width Modulation (PWM)" section.)
+
+
+- As of 10:08am, Ulises is creating a standard LED circuit to test the PWM.
+    a. The circuit is EXACTLY like the LED circuit from "Assignment 2: libgpiod" (minus the button).
+- For LED section, we are using pins 12 and 13 rather than the pin 18 recommended by the instructions.
+
+
+- Roadbump @10:25am --> the init_pwm.py script that John uploaded to the GitHub is failing to run properly and thus the LEDs are not activated.
+    a. IT WORKED!! (as of 11am) --> Apparently, our code failed to cleanup the GPIO assignments thus the GPIOS and Raspberry Pi's functionality that we needed for "init_pwm.py" was made unavailable. Dr. Young rebooted our Raspberry Pi 4 which DID properly cleanup the GPIO & Pi functionality. This allowed the most recent version of our "init_pwm.py" to properly run and cause one of the two green LEDs to blink!
+
+- More info on battery pack: (https://bezgar.com/products/bezgar-batteryp2050-b850?currency=USD&variant=43864009933014&utm_source=google&utm_medium=cpc&utm_campaign=Google+Shopping&stkn=bd19ff651e89&srsltid=AfmBOoo9cOqjLvgRF6FxyV9MQiUydMTEsmZmJdkorLfNYijqgjF9TwjiKKA&gQT=1)
+
+Miscellaneous:
+- ELEC is 10% cool shii and 90% debugging (T︵T)
