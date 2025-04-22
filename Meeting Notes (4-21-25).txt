@@ -1,0 +1,36 @@
+4/21/25:
+
+Attending Members: John, Liam, Ulises, Devin (Full Team Present!)
+
+Plan for Next Time (4/22 @ 9:25am): 
+  - Liam <-- Pick up everything in Locker 12 with a bag and then transport it to O'Connor before the meeting.
+
+Components:
+  - (Literally every component in Locker 12)
+
+Current Plan:
+
+- All or most of the group to meet until 9/10pm tonight for general debrief & project setup.
+- For 4/22, meet at O'Connor @9:25am and stay for office hours (ends @ 10:40am).
+- Team Locker: Locker 12 (marked by a Aquamarine/Teal Sticky Note on the right side of cabinet section).
+  a. Contains both Final Project & Project 3 Equipment.
+
+Notes:
+- Ulises microSD has been flashed with the new image for project 3.
+  a. As of 7:20pm, he is having issues initializing the LCD and Raspberry Pi 5.
+     - As of 7:36pm, Ulises is still having trouble and thus John & Ulises will try to use John's laptop to initialize the LCD and Raspberry Pi 5.
+  b. As of 7:22pm, John is messing with the provided example skeleton codes.
+  c. As of 7:23pm, Liam is taking notes & also messing with the provided example code.
+  d. Devin is in class and shall join the group at 8pm.
+- John setup a group GitHub for our code.
+  a. GitHub Link: https://github.com/JohnDavidVill/elec424proj3
+  b. The Python script (file), in our GitHub, named "graDudes_script.py" contains the hearty meat of our skeleton code (not full skeleton code, sadly).
+- Ulises wants a backup microSD to also be flashed with the new Raspberry Pi 5 image :)
+- Devin arrived @ 8:04pm and the plan is to have him redo the initial instructions of the project to see if maybe a fresh set of eyes can help us get the LCD and Raspberry Pi 5 initialized.
+- DeepSeek Link: (https://chat.deepseek.com/a/chat/s/1707f1cb-15b2-40fe-b16b-58c20cbfb5dc)
+
+Miscellaneous Notes:
+- Being an ELEC is 10% cool shii and 90% debugging hardware/software.
+- According to Devin's sources, Project 3 is straightforward. The FINAL PROJECT, however, is a nightmare!
+- Apparently, a MECHE on a MSNE senior design team is gonna FAIL! Bro, literally hasn't shown up to a single team meeting this semester and was already warned last semester for his poor work ethic.
+- DJ Dev!!!
