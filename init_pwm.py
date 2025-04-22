@@ -1,3 +1,5 @@
+#If this code gives trouble, the best working working version of it should be saved to Devin's laptop 
+# or still within the "Recent" directory for Devin's Visual Code Studio.
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BOARD)
