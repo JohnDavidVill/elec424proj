@@ -1,0 +1,21 @@
+4/24/25:
+
+Attending Members: John, Liam, Ulises, Devin (Full Team Present!)
+
+Components:
+  - (Literally every component in Locker 12)
+
+Current Plan:
+- Team Locker: Locker 12 (marked by a Aquamarine/Teal Sticky Note on the right side of cabinet section).
+  a. Contains both Final Project & Project 3 Equipment.
+
+Notes:
+- Roadbump: main.py script is not working (code needed for car to complete demo procedures)
+    a. At 9:46am, we confirmed that init_pwm is delivering a signal, moreover, we were able to confirm that init_pwm was able to alter the output signal to cause the LED to brighten/dim.
+    b. It's possible that we incorrectly calibrated the servo (power & acceleration motors) as well as the steering motors however, this would mean that somehow the servo (which doesn't need calibration) is also not receiving a control signal.
+    c. Unfortunately, even after re-calibrating, Dr. Young suspects that the RC car's module isn't properly interpreting the Pi's PWM signal.
+    d. At 10:25am, it was discovered that we have a severe hardware issue. It's possible that both our car, microSD, and battery, etc.
+    e. It "worked" --. a duty cycle of 0.22 could work to get the car moving.
+    f. Door Code (Ryon Basement) --> 3090
+    g. FINAL VERDICT --> We need a new everything, but especially a new car.
+- In the main_py, the variable "p" controls the servo motors.
