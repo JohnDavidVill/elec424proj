@@ -1,0 +1,34 @@
+pi@raspberrypi:~/project3 $ ifconfig
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether d8:3a:dd:66:c9:1b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 11  bytes 1661 (1.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 11  bytes 1661 (1.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+usb0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.42.0.1  netmask 255.255.255.0  broadcast 10.42.0.255
+        inet6 fe80::6148:fc04:e2ff:5466  prefixlen 64  scopeid 0x20<link>
+        ether 36:7e:8e:e9:41:e6  txqueuelen 1000  (Ethernet)
+        RX packets 17115  bytes 2623791 (2.5 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 19056  bytes 7806636 (7.4 MiB)
+        TX errors 0  dropped 16 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 168.5.128.78  netmask 255.255.192.0  broadcast 168.5.191.255
+        inet6 fe80::995d:93ef:9026:de58  prefixlen 64  scopeid 0x20<link>
+        ether d8:3a:dd:66:c9:1c  txqueuelen 1000  (Ethernet)
+        RX packets 24613  bytes 7427287 (7.0 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9583  bytes 2275656 (2.1 MiB)
+        TX errors 0  dropped 5 overruns 0  carrier 0  collisions 0
