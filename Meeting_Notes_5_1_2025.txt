@@ -1,0 +1,25 @@
+Final Project Report:
+
+Attending Members: Ulises, John, Liam, Devin
+
+Date: 5/1/25 (2:45pm to 4:30pm)
+
+Next Meeting: 5/2/25 (1pm to 3:30pm)
+
+Context:
+
+- After using the retired RC car utilized by the students (enrolled in ELEC 424) in Spring 2024, the team, despite countless hardware issues, was able to complete the demo needed for Project 3.
+      a. Key Issue: The "stop()" command and the "re-align steering straight" command ran nearly simultaneously and thus the Raspberry Pi was unable to process & transmit the "re-align steering straight" command to the car's servo before processing and completing the "stop()" command which forces both the steering servo motor and the brushless throttle motor to both go idle.
+           i. Solution: Added a delay to force the Raspberry Pi to wait until the processing & transmission of the "re-align steering straight" command to the car's servo is complete before processing & transmitting the "stop()" command.
+
+- The "Magnificent M.E.G.G. Car" team was kind enough to provide our team with their: Raspberry Pi Model 5, RC car (servo motor, brushless motor, and calibration switch), optical encoder, optical encoder stand, power bank, and LCD Display.
+      a. NOTE: When beginning work on the final project, the "Rice Owls" Wi-Fi restricted SSH capabilities and thus each laptop had to switch to the "Rice Visitors" Wi-Fi. Given our familiarity with our own Raspberry Pi Model 4, the team decided to keep all of "Magnificent M.E.G.G. Car" team's donated equipment but swap their Raspberry Pi Model 4 for our Raspberry Pi Model 4.
+
+Final Project:
+- The team confirmed that the demo code used for Project 3 does run as intended on the donated equipment.
+      a. Note: Re-calibration of the donated RC car was necessary. It was discovered that the minimum duty cycle was 8% rather than 7.5%, thus to throttle the car forward a duty cycle of 9% was set in the project 3 demo code.
+- Currently, we are referencing the "Magnificent M.E.G.G. Car" team's published Hackster Blog (https://www.hackster.io/m-e-g-g/the-magnificent-m-e-g-g-car-28ec89) as well as the "graDudes" team's published Hackster Blog (https://www.hackster.io/439751/gradudes-9d9a6e)
+- The Raspberry Pi hooked to the car (our own) contains Devin's microSD.
+
+Current Objective:
+- Given the donated equipment (sin the "Magnificent M.E.G.G. Car" team's microSD card) and the aforementioned Hackster teams' blogs, the next step is to research and troubleshoot programming for the optical encoder as this is the only capability that is missing from our car (for it to be considered "autonomous" and for the project prototype to be complete).
