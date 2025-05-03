@@ -1,0 +1,15 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    fragment@0 {
+        target-path ="/";
+        __overlay__ {
+            my_device_jerry {
+                compatible = "a_second_name";
+		        encoder-gpios = <&gpio 6 0 >;
+            };
+        };
+    };
+
+};
